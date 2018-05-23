@@ -1,0 +1,260 @@
+<resources>
+    <string name="app_name">Snoopy</string>
+    <string name="app_title">Snoopy</string>
+
+    <!-- ACTIONS -->
+    <string name="action_edit">Редагувати</string>
+    <string name="action_save">Зберегти</string>
+    <string name="action_dashboard">Адмін панель</string>
+    <string name="action_settings">Налаштування</string>
+    <string name="action_logout">Вийти</string>
+    <string name="action_remove">Видалити</string>
+    <string name="action_delete_all">Видалити все</string>
+    <string name="action_new_user">Новий користувач</string>
+    <string name="action_choose_date">Вибрати дату</string>
+    <string name="action_change_password">Змінити пароль</string>
+    <string name="action_discard">Вийти</string>
+    <string name="action_cancel">Скасувати</string>
+    <string name="action_change_ava">Змінити аватар</string>
+    <string name="action_recharge">Поповнити</string>
+    <string name="action_settings_salary">Тарифи</string>
+
+    <!-- DIALOGS-->
+    <string name="dialog_logout_title">Вийти з аккаунта</string>
+    <string name="dialog_logout_message"> Ви впевнені що бажаєте вийти з аккаунта?</string>
+    <string name="dialog_cost_delete_title">Видалити витрату</string>
+    <string name="dialog_cost_delete_message">Після видалення відновити витрату буде неможливо</string>
+    <string name="dialog_cost_delete_all_title">Видалити всі витрати?</string>
+    <string name="dialog_cost_delete_all_message">Після видалення відновити витрати буде неможливо</string>
+    <string name="dialog_delete_notification_title">Видалити діалог</string>
+    <string name="dialog_delete_notification_message">Після видаленння відновити діалог буде неможливо</string>
+    <string name="dialog_about_message">Snoopy  \nv </string>
+    <string name="dialog_report_save_before_close_title">Зберегти зміни</string>
+    <string name="dialog_report_save_before_close_text">Ви хочете зберегти зміни?</string>
+    <string name="dialog_mk_edit_text">В тексті є зміни, зберегти їх?</string>
+    <string name="dialog_discard_changes">Вийти без збереження?</string>
+    <string name="dialog_remove_title">Видалити повідомлення?</string>
+    <string name="dialog_calendar_remove_title">Видалити заняття?</string>
+    <string name="dialog_remove_contact_title">Видалити контакт?</string>
+    <string name="dialog_remove_contact_message">Якщо ви видалите контакт всі дані будуть втрачені</string>  <!-- Strings related to LESSON -->
+
+    <!-- HINTS-->
+    <string name="hint_first_name">ПІБ</string>
+    <string name="hint_phone">Телефон</string>
+    <string name="hint_phone2">Телефон 2</string>
+    <string name="hint_email">Електронна скринька</string>
+    <string name="hint_date_birth">Дата народження</string>
+    <string name="hint_card">Номер картки</string>
+    <string name="hint_time">Час роботи</string>
+    <string name="hint_first_date">Перший робочий день</string>
+    <string name="hint_password">Пароль</string>
+    <string name="hint_password_one_more">Пароль (ще раз)</string>
+    <string name="hint_notif">Отримувати сповіщення</string>
+    <string name="hint_show_clients">Доступ до витрат</string>
+    <string name="hint_price">Ціна</string>
+    <string name="hint_title1">Назва</string>
+    <string name="hint_link">Посилання (http://)</string>
+    <string name="hint_short_description">Короткий опис</string>
+    <string name="hint_description">Детальний опис (не обовязково)</string>
+    <string name="hint_client_description">Опис</string>
+    <string name="hint_comment">Коментар</string>
+    <string name="hint_my">Тільки мої</string>
+    <string name="hint_teacher">Викладач</string>
+    <string name="hint_comment_add">Введіть повідомлення…</string>
+    <string name="hint_double_press">Натисніть ще раз аби вийти з додатку</string>
+    <string name="hint_filter_by_name"> І\'мя</string>
+    <string name="hint_filter_by_phone">Телефон</string>
+
+    <!-- TITLES-->
+    <string name="title_activity_login">Вхід в Snoopy</string>
+    <string name="title_activity_add">Добавлення</string>
+    <string name="title_activity_edit">Редагування</string>
+    <string name="title_activity_sign_up">Реєстрація</string>
+    <string name="title_activity_reset_password">Відновлення паролю</string>
+    <string name="title_activity_about">Про проект</string>
+    <string name="title_activity_user">Особистий кабінет</string>
+    <string name="title_activity_notification">Повідомлення</string>
+    <string name="title_activity_notification_item">Повідомлення</string>
+    <string name="title_activity_dashboard">"Адмін панель (%1$s ГРН)"</string>
+    <string name="title_activity_salary">Заробітна плата</string>
+    <string name="title_activity_maps">Карта</string>
+    <string name="title_activity_events">Повідомлення</string>
+    <string name="title_activity_calendar">Календар</string>
+    <string name="title_activity_cost">Витрати</string>
+    <string name="title_activity_lesson">Заняття %s</string>
+    <string name="title_activity_rooms_tab">Кабінети %s</string>
+    <string name="title_activity_clients_tab">Наші Клієнти</string>
+    <string name="title_activity_birth">Дні Народження Клієнтів</string>
+
+    <!--ERRORS-->
+    <string name="error_no_name">Імя не може бути порожнім!</string>
+    <string name="error_empty_error">Помилка. Не всі дані заповнені!</string>
+    <string name="error_delete_contact">Неможливо видалити контакт! Спочатку видаліть всі заняття</string>
+    <string name="error_delete_contact_other">Неможливо видалити контакт! В конакта є заняття з іншими викладачами</string>
+
+    <!--TOASTS-->
+    <string name="toast_minimum_password">Пароль за короткий. Мінімальна довжина 6 символів!</string>
+    <string name="toast_auth_failed">Не вдається ввійти! Перевірте, будь ласка, правильність введених даних</string>
+    <string name="toast_different_password">Паролі не співпадають</string>
+    <string name="toast_user_created">"Користувача зареєстровано: "</string>
+    <string name="toast_data_updated">Зміни збережено</string>
+    <string name="toast_data_started_updated">Аватар загружається</string>
+    <string name="toast_nothing_to_change">Немає змін в даних</string>
+    <string name="toast_client_added">Контакт створено</string>
+    <string name="toast_expense_added">Витрату добавлено</string>
+    <string name="toast_saved">Збережено</string>
+    <string name="toast_deleted">Видалено</string>
+    <string name="toast_lesson_removed">Заняття видалено</string>
+    <string name="toast_updated">Дані обновлено успішно</string>
+    <string name="toast_dialog_added">Діалог створено успішно</string>
+    <string name="toast_photo_uploading">"Фото загружається. Зачекайте хвильку.."</string>
+    <string name="toast_lesson_remove_unavailable">Видалення не дсступно</string>
+    <string name="toast_duplicate">Дата змінена! При збереженні буде створено дублікат уроку</string>
+    <string name="toast_text_copied">Скопійовано в буфер обміну</string>
+
+    <!--SHORTCUTS-->
+    <string name="shortcut_calendar_short_label">Календар</string>
+    <string name="shortcut_calendar_long_label">Перейти в Календар</string>
+    <string name="shortcut_report_short_label">Заняття</string>
+    <string name="shortcut_report_long_label">Створити Заняття</string>
+
+    <!-- LOGIN -->
+    <string name="button_login">Ввійти</string>
+    <string name="button_forgot_password">Забули пароль?</string>
+
+    <!-- RESET PASS -->
+    <string name="text_forgot_password">Забули пароль?</string>
+    <string name="text_forgot_password1">Нам необхідно Ваша електронна скринька щоб відправити інструкцію по відновленню.</string>
+    <string name="button_reset_password">Відновити пароль</string>
+
+    <!-- SIGN UP-->
+    <string name="button_sign_up">Зареєструвати</string>
+
+    <!-- MAIN -->
+    <string name="app_motto">Курси іноземних мов</string>
+    <string name="button_lesson">Створити Заняття</string>
+    <string name="button_programs">Клієнти</string>
+    <string name="button_calendar1">Календар</string>
+    <string name="button_requisites">Кабінети</string>
+    <string name="button_expenses">Витрати</string>
+    <string name="button_about">Про проект</string>
+    <string name="button_fb">Ми в Facebook</string>
+    <string name="button_site">Наш сайт</string>
+    <string name="button_link">Поділитись</string>
+
+    <!-- PROFILE -->
+    <string name="text_friend_list">Колеги</string>
+    <string name="image_permissions">Будь ласка, добавте дозвіл на використання камери</string>
+    <string name="text_choose_images">Виберіть картинку</string>
+    <string name="online">Online</string>
+    <string name="text_last_online">Востанє в мережі %s</string>
+    <string name="text_last_online_long_time_ago">Востаннє в мережі давно</string>
+
+    <!-- PROFILE SETTINGS-->
+    <string name="text_user_details">Основні дані</string>
+    <string name="text_password_change">Зміна паролю</string>
+    <string name="text_comments_list">Дозволити коментувати</string>
+
+    <!-- DIALOGS-->
+
+    <!-- EXPENSES-->
+    <string name="text_expenses_list">Список витрат</string>
+    <string name="button_expense_upload">Загрузити фото</string>
+    <string name="text_expense_placeholder">Поки що немає витрат</string>
+
+    <!-- LESSON -->
+    <string name="text_room">Кабінет</string>
+
+    <!-- DASHBOARD -->
+    <string name="text_all">Всього</string>
+    <string name="text_birthdays">Дні Народження</string>
+    <string name="text_charts_income">Виручка / Прибуток</string>
+    <string name="text_charts">Чистий прибуток</string>
+    <string name="text_income_">Оборот</string>
+    <string name="text_expense_total">Витрати</string>
+    <string name="text_salary">Заробітна плата</string>
+    <string name="text_salary_condition_title">Умови</string>
+    <string name="text_show_details">Показати детальніше</string>
+
+    <!-- ABOUT -->
+    <string name="text_about_company">Про проект</string>
+
+    <!--MAPS-->
+    <string name="text_maps_marker_title">Розташування</string>
+
+    <!--DIALOGS-->
+    <string name="text_members">Учасники</string>
+
+    <!--SPECIFIC-->
+    <string name="empty_string" />
+    <string name="text_zero">0</string>
+    <string name="lesson_length_one_hour">1 год</string>
+    <string name="lesson_length_one_half_hour">1.5 год</string>
+    <string name="text_salary_student">Із Студента (1 год, 1.5 год); Викладачу (1 / 1.5)</string>
+    <string name="text_salary_student_child">Із Дитини (1 год, 1.5 год); Викладачу (1 / 1.5)</string>
+
+    <string name="spinner_not_selected">Не вибрано викладача</string>
+    <string name="text_lesson_type">Тип</string>
+    <string name="text_client_type">Студент</string>
+    <string name="text_income_list">Баланс:</string>
+    <string name="text_income_placeholder">Поки що немає поповнень</string>
+    <string name="text_read_contacts_rationale">Добавте дозвіл на читання контактів</string>
+    <string name="text_select_one">Виберіть контакт</string>
+
+    <string name="text_salary_description_d">
+        "Всього проведено %1$d занять.\n\n"
+        ""
+        "З дорослими: \n"
+        "%2$d Приватних. Зароблено: %3$d\n"
+        "%4$d Парних. Зароблено: %5$d\n"
+        "%6$d Групових. Зароблено: %7$d\n"
+        "%8$d OnLine. Зароблено: %9$d\n\n"
+        ""
+        "З дітьми: \n"
+        "%10$d Приватних. Зароблено: %11$d\n"
+        "%12$d Парних. Зароблено: %13$d\n"
+        "%14$d Групових. Зароблено: %15$d\n"
+        "%16$d OnLine. Зароблено: %17$d"
+    </string>
+    <string name="hrn_d">%d грн</string>
+    <string name="just_hrn">"грн"</string>
+    <string name="hrn">"%1$s грн"</string>
+    <string name="HRN">"%1$s ГРН"</string>
+
+    <string name="text_salary_adult_1h">1 год</string>
+    <string name="text_salary_adult_15h">1.5 год</string>
+
+    <string name="tab_room_1">Зелений</string>
+    <string name="tab_room_2">Синій</string>
+    <string name="tab_room_3">Оливк.</string>
+    <string name="tab_room_4">Бордов.</string>
+    <string name="lesson_type_1">Приватне</string>
+    <string name="lesson_type_2">Парне</string>
+    <string name="lesson_type_3">Групове</string>
+    <string name="lesson_type_4">OnLine</string>
+    <string name="text_salary_private">Приватні</string>
+    <string name="text_salary_pair">Парні</string>
+    <string name="text_salary_group">Групові</string>
+    <string name="text_salary_online">OnLine</string>
+
+    <string name="user_type_adult">Дорослі</string>
+    <string name="user_type_child">Діти</string>
+    <string name="text_expenses_type0">Загальні</string>
+    <string name="text_expenses_type1">На офіс</string>
+
+    <string-array name="months">
+        <item>Січень</item>
+        <item>Лютий</item>
+        <item>Березень</item>
+        <item>Квітень</item>
+        <item>Травень</item>
+        <item>Червень</item>
+        <item>Липень</item>
+        <item>Серпень</item>
+        <item>Вересень</item>
+        <item>Жовтень</item>
+        <item>Листопад</item>
+        <item>Грудень</item>
+    </string-array>
+
+</resources>

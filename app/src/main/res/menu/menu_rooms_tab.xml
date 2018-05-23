@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".presentation.ui.main.rooms.RoomsTabActivity">
+
+    <item
+        android:id="@+id/action_choose_date"
+        android:icon="@drawable/ic_calendar"
+        android:title="@string/action_choose_date"
+        app:showAsAction="ifRoom" />
+</menu>

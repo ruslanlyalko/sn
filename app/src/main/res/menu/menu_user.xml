@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.ruslanlyalko.android.snoopyea.ui.UserActivity">
+
+    <item
+        android:id="@+id/action_add_user"
+        android:icon="@drawable/ic_action_add"
+        android:title="@string/action_new_user" />
+
+    <item
+        android:id="@+id/action_settings_salary"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/action_settings_salary" />
+
+    <item
+        android:id="@+id/action_dashboard"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/action_dashboard" />
+
+    <item
+        android:id="@+id/action_change_ava"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/action_change_ava" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/action_settings" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/action_logout" />
+</menu>
